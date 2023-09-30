@@ -1,10 +1,10 @@
-# Vue + Vite + Supabase OAuth Template
+# Vue + Supabase + Pinia OAuth Template
 
-Absolute essentials for a persistent OAuth user authentication using Vue + Pinia + Supabase + Vite
+Absolute essentials for a persistent OAuth user authentication using Vue + + Supabase + Pinia + Vite
 
 ## Quick Start
 
-Run `npm install` to install dependencies. Make sure to populate your `.env` file with your Supabase keys.
+Run `npm install` to install dependencies. Make sure to populate `src/main.js` file with your Supabase keys.
 
 ## Key Files
 
