@@ -18,7 +18,7 @@ const user = computed(() => authStore.user);  // Note the getter function
 
 async function signIn() {
   const { data, error } = await supabase.auth.signInWithOAuth({
-    provider: 'twitch',
+    provider: 'github',
   })
 }
 
