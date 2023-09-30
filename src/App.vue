@@ -14,11 +14,11 @@ import { useAuthStore } from './store/auth';
 
 const supabase = inject('supabase');
 const authStore = useAuthStore();
-const user = computed(() => authStore.user);  // Note the getter function
+const user = computed(() => authStore.user);
 
 async function signIn() {
   const { data, error } = await supabase.auth.signInWithOAuth({
-    provider: 'github',
+    provider: 'github', // Or any other provider you have setup for OAuth
   })
 }
 
