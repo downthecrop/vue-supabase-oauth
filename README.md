@@ -1,6 +1,6 @@
 # Vue + Supabase + Pinia OAuth Template
 
-Absolute essentials for a persistent OAuth user authentication using Vue + + Supabase + Pinia + Vite
+Absolute essentials for a persistent OAuth user authentication using Vue + Supabase + Pinia + Vite
 
 ## Quick Start
 
